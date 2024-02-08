@@ -1,14 +1,16 @@
 import React from 'react'
+import '../index.css'
 
-function Navigation() {
+function Navigation({setPage}) {
+  // state is managed in the parent component (Header) 
   return (
     <div>
       <nav className = 'navbar'>
         <div className="navbar-brand navbar-end">
-          <a className="navbar-item " href='/' rel="noreferrer">About Me</a>
-          <a className="navbar-item " href='/projects' rel="noreferrer">Projects</a>
-          <a className="navbar-item " href='/contact' rel="noreferrer">Contact</a>
-          <a className="navbar-item " href='/resume' rel="noreferrer">Resume</a>
+          <div className="navbar-item " onClick={()=> setPage('About Me')}>About Me</div>
+          <div className="navbar-item " onClick={() => setPage('Projects')}>Projects</div>
+          <div className="navbar-item " onClick={()=> setPage('Contact')}>Contact</div>
+          {/* <a className="navbar-item " href='/resume' rel="noreferrer">Resume</a> */}
         </div>
       </nav>
     </div>
