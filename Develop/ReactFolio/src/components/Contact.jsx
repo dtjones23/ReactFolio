@@ -15,7 +15,7 @@ export default function Contact() {
             <div className="field">
                 <label className="label">Email</label>
                 <div className="control has-icons-left has-icons-right">
-                    <input className="input is-danger" type="email" placeholder="" value="" />
+                    <input className="input" type="email" placeholder="" value="" />
                 </div>
             </div>
 
