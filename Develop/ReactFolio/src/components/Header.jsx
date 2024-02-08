@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <nav className = 'title navbar'>
-        <div className='navbar-brand navbar-start'>
-          <a className='navbar-item' rel="noreferrer">
+        <div className='navbar-brand'>
+          <a className='navbar-item large-font' rel="noreferrer">
             DeAngelo Jones
           </a>
         </div>

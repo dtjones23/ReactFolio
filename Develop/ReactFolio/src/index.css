@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: tan;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
 nav.navbar {
     background-color: maroon;
     font-size: 20px;
@@ -16,3 +24,13 @@ nav.navbar a {
     color: tan;
     text-decoration: none;
 }
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .large-font {
+    font-size: 35px; /* Adjust this value to your liking */
+  }
+
