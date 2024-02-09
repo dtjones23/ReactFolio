@@ -42,4 +42,7 @@ div.navbar-item:hover {
     color: blue
 }
 
-
+.smaller-image {
+    width: 40rem;
+    height: 40rem;
+}
