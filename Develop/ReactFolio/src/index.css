@@ -30,7 +30,7 @@ nav.navbar a {
   }
 
   .large-font {
-    font-size: 35px; /* Adjust this value to your liking */
+    font-size: 35px;
   }
 
 div.navbar-item {
@@ -45,4 +45,8 @@ div.navbar-item:hover {
 .smaller-image {
     width: 40rem;
     height: 40rem;
+}
+
+.textarea {
+    height: 200px;
 }
