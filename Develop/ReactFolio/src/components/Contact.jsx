@@ -52,7 +52,7 @@ export default function Contact() {
                     <h1 className='title has-text-centered mt-6' style={{ color: 'maroon' }}>Contact Me</h1>
                     <label htmlFor="name" className="label">Name</label>
                     <div className="control">
-                        <input id="name" className="input" type="text" placeholder="Enter Name" value={name} onChange={(event) => handleInputChange(event, setName, 'name')} />
+                        <input id="name" className="input is-medium" type="text" placeholder="Enter Name" value={name} onChange={(event) => handleInputChange(event, setName, 'name')} />
                         {errors.name && <p className="error">{errors.name}</p>}
                     </div>
                 </div>
@@ -60,7 +60,7 @@ export default function Contact() {
                 <div className="field">
                     <label htmlFor="email" className="label">Email</label> 
                     <div className="control">
-                        <input id="email" className="input" type="email" placeholder="Enter valid Email" value={email} onChange={(event) => handleInputChange(event, setEmail, 'email')} onBlur={(event) => handleInputBlur(event, 'email')} />
+                        <input id="email" className="input is-medium" type="email" placeholder="Enter valid Email" value={email} onChange={(event) => handleInputChange(event, setEmail, 'email')} onBlur={(event) => handleInputBlur(event, 'email')} />
                         {errors.email && <p className="error">{errors.email}</p>}
                     </div>
                 </div>
@@ -68,14 +68,14 @@ export default function Contact() {
                 <div className="field">
                     <label htmlFor="message" className="label">Message</label>
                     <div className="control">
-                        <textarea id="message" className="textarea" placeholder="Leave a message" value={message} onChange={(event) => handleInputChange(event, setMessage, 'message')} />
+                        <textarea id="message" className="textarea is-medium" placeholder="Leave a message" rows= "10"value={message} onChange={(event) => handleInputChange(event, setMessage, 'message')} />
                         {errors.message && <p className="error">{errors.message}</p>}
                     </div>
                 </div>
     
                 <div className="field is-grouped">
                     <div className="control">
-                        <button className="button is-fullwidth is-link">Submit</button>
+                        <button className="button is-fullwidth is-link mt-5">Submit</button>
                     </div>
                 </div>
             </div>
