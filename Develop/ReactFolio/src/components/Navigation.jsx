@@ -10,7 +10,7 @@ function Navigation({setPage}) {
           <div className="navbar-item " onClick={()=> setPage('About Me')}>About Me</div>
           <div className="navbar-item " onClick={() => setPage('Projects')}>Projects</div>
           <div className="navbar-item " onClick={()=> setPage('Contact')}>Contact</div>
-          {/* <a className="navbar-item " href='/resume' rel="noreferrer">Resume</a> */}
+          <div className="navbar-item " onClick={()=> setPage('Resume')}>Resume</div>
         </div>
       </nav>
     </div>

@@ -49,7 +49,7 @@ export default function Contact() {
         <form onSubmit={handleSubmit}>
             <div className="container">
                 <div className="field">
-                    <h1 className='title has-text-centered' style={{ color: 'maroon' }}>Contact Me</h1>
+                    <h1 className='title has-text-centered mt-6' style={{ color: 'maroon' }}>Contact Me</h1>
                     <label htmlFor="name" className="label">Name</label>
                     <div className="control">
                         <input id="name" className="input" type="text" placeholder="Enter Name" value={name} onChange={(event) => handleInputChange(event, setName, 'name')} />
