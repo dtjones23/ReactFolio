@@ -38,6 +38,11 @@ export default function Contact() {
         // prevent the form from refreshing the page
         event.preventDefault();
         console.log({ name, email, message });
+
+        // Clear the form
+        setName('');
+        setEmail('');
+        setMessage('');
     }
 
     return (
