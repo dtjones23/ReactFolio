@@ -1,5 +1,4 @@
 import React from 'react'
-import images from '../images/IMG_4826.jpeg'
 import '../index.css'
 
 export default function About() {
