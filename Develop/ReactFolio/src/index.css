@@ -1,13 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: tan;
-    line-height: 1.6;
     font-size: 18px;
 }
 
@@ -23,11 +21,6 @@ nav.navbar a {
     color: tan;
     text-decoration: none;
 }
-
-.button-container {
-    display: flex;
-    justify-content: space-between;
-  }
 
   .large-font {
     font-size: 35px;
