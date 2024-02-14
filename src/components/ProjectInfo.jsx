@@ -28,7 +28,7 @@ export const projects = [
         id: 4,
         name: 'SQL Business Tracker',
         description: 'A command-line application that allows the user to view and manage departments, roles, and employees in a company',
-        image: 'https://private-user-images.githubusercontent.com/142169871/289316796-8a370007-b664-4e17-8890-3495979814d5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc1MTYwODgsIm5iZiI6MTcwNzUxNTc4OCwicGF0aCI6Ii8xNDIxNjk4NzEvMjg5MzE2Nzk2LThhMzcwMDA3LWI2NjQtNGUxNy04ODkwLTM0OTU5Nzk4MTRkNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwOVQyMTU2MjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNWUzMWVlZjc4NDA2MDUxMTVmZjZiMWFjN2JmMTY3NzkwMDNjNjMzMDI1OGQ2Yzc0MTg3NTQ3MGVmMWE0NGUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.YrO-tK38Gcgrgdy393HJckZFlO5JJRWN3yGumnLmUVo',
+        image: '',
         live: '',
         repo: 'https://github.com/dtjones23/SQL-Business-Tracker'
     },
@@ -44,7 +44,7 @@ export const projects = [
         id: 6,
         name: 'Work Day Scheduler',
         description: 'A simple calendar application that allows the user to save events for each hour of the day',
-        image: 'https://private-user-images.githubusercontent.com/142169871/303787119-e8ae7fb7-e250-4d7f-b689-d8675ce286b4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc1MTcwNjUsIm5iZiI6MTcwNzUxNjc2NSwicGF0aCI6Ii8xNDIxNjk4NzEvMzAzNzg3MTE5LWU4YWU3ZmI3LWUyNTAtNGQ3Zi1iNjg5LWQ4Njc1Y2UyODZiNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwOVQyMjEyNDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MjI2OTBhYzU5YmExM2MxNmQ4YTAzM2MzMjZlOTgyMDIzY2ZiMjViZTI1YWY1OTk2YzU4MWQ1MTQ5M2M0NzMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.c4oaD9SZ7jzN6gSSrWPORD5P9IYrAdw_2uHFEzT1m20',
+        image: '/Users/deangelojones/Homework/ReactFolio/src/images/sqlbusinesstrack.jpeg',
         live: 'https://dtjones23.github.io/Day-Planning-Calender/',
         repo: 'https://github.com/dtjones23/Day-Planning-Calender'
     }
