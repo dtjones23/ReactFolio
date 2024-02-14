@@ -28,7 +28,7 @@ export const projects = [
         id: 4,
         name: 'SQL Business Tracker',
         description: 'A command-line application that allows the user to view and manage departments, roles, and employees in a company',
-        image: '',
+        image: 'https://github.com/dtjones23/ReactFolio/blob/main/src/images/sqlbusinesstrack.png?raw=true',
         live: '',
         repo: 'https://github.com/dtjones23/SQL-Business-Tracker'
     },
