@@ -1,5 +1,4 @@
 import React from 'react'
-// import '../index.css'
 
 function Navigation({setPage}) {
   // state is managed in the parent component (Header) 
