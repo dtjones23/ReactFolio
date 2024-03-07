@@ -8,7 +8,7 @@ function Navigation({setPage}) {
         <div className="navbar-brand navbar-end">
           <div className="navbar-item " onClick={()=> setPage('About Me')}>About Me</div>
           <div className="navbar-item " onClick={() => setPage('Projects')}>Projects</div>
-          <div className="navbar-item " onClick={()=> setPage('Contact')}>Contact</div>
+          {/* <div className="navbar-item " onClick={()=> setPage('Contact')}>Contact</div> */}
           <div className="navbar-item " onClick={()=> setPage('Resume')}>Resume</div>
         </div>
       </nav>

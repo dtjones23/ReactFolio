@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import About from './About';
 import Project from './Project';
 import Resume from './Resume';
-import Contact from './Contact';
+// import Contact from './Contact';
 import '../index.css'
 
 function Header() {
@@ -21,8 +21,8 @@ function Header() {
       return <About />;
     } else if (page === 'Projects') {
       return <Project />;
-    } else if (page === 'Contact') {
-      return <Contact />;
+    // } else if (page === 'Contact') {
+    //   return <Contact />;
     } else if (page === 'Resume') {
       return <Resume />;
     }
