@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../images/IMG_4826.jpeg";
 import "../index.css";
 
 export default function About() {
@@ -23,7 +22,7 @@ export default function About() {
           <img
             className="smaller-image is-vcentered"
             style={{ borderRadius: "50%" }}
-            src={images}
+            src='https://github.com/dtjones23/first-day-demo/assets/142169871/086db32b-7ff0-4da1-83b9-cd602c7a76a5'
             alt="placeholder"
           />
         </figure>

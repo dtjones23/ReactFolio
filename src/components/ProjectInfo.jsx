@@ -4,7 +4,7 @@ export const projects = [
         id: 1,
         name: 'Spirit Labs 2.0',
         description: 'The new and improved version of Spirit Labs! A React application that allows users to search for cocktail recipes and even make their own! Users can also create an account and save their favorite recipes to their profile.',
-        image: 'src/images/spiritlabs2.0.png',
+        image: 'https://github.com/dtjones23/first-day-demo/assets/142169871/a7845381-48b9-40bb-beb8-61b6aa18c7a4',
         live: ' https://spiritlabs.onrender.com/',
         repo: 'https://github.com/DimtheQuiet21/SpiritLab2'
     },
