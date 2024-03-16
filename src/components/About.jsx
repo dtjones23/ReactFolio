@@ -7,30 +7,35 @@ export default function About() {
       className="mp-6"
       style={{
         backgroundColor: "tan",
-        height: "84vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        width: "auto",
+        padding: "0 20px",
       }}
     >
       <div
         className="columns"
-        style={{ display: "flex", alignItems: "center", textAlign: "center" }}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          textAlign: "center",
+          maxWidth: "1200px",
+          width: "100%",
+        }}
       >
         <figure className="ml-5">
           <img
             className="smaller-image is-vcentered"
-            style={{ borderRadius: "50%" }}
-            src='https://github.com/dtjones23/first-day-demo/assets/142169871/086db32b-7ff0-4da1-83b9-cd602c7a76a5'
+            style={{ borderRadius: "50%", maxWidth: "100%", height: "auto" }}
+            src="https://github.com/dtjones23/first-day-demo/assets/142169871/086db32b-7ff0-4da1-83b9-cd602c7a76a5"
             alt="placeholder"
           />
         </figure>
-        <div style={{ marginLeft: "20px", width: "50%" }}>
+        <div style={{ marginTop: "20px", width: "100%" }}>
           <h1 className="title mb-6" style={{ color: "maroon" }}>
             About Me
           </h1>
-          <p className="subtitle mt-4" style={{ textAlign: "center" }}>
+          <p className="subtitle mt-4 mb-5" style={{ textAlign: "center" }}>
             "Good, better, best. Never let it rest until your good is better and
             your better is best." - Coach B <br />
             <br />
@@ -55,16 +60,4 @@ export default function About() {
       </div>
     </div>
   );
-}
-{
-  /* <div className="columns is-centered is-vcentered">
-<div className="column is-narrow">
-  <figure>
-  <img className="smaller-image" src={images} alt='placeholder'/>
-  </figure>
-  <h1 className = 'title mt-6' style = {{color: 'maroon'}}>About Me</h1>
-  <p className = 'subtitle mt-6 ' style={{textAlign: 'center', maxWidth: '400px', margin: 'auto'}}>I'm a recent graduate with a BS in psychology from the University of Wisconsin-Lacrosse. Currently I'm in pursuit to becoming a full-stack developer and am a part of the University of Wisconsin-Bootcamp program! </p>
-</div>
-</div>
-</div> */
 }

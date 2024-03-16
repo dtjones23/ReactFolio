@@ -48,6 +48,11 @@ h1 {
     color: maroon;
 }
 
+h1.navbar-item {
+    color: tan;
+}
+
+
 .progress {
     height: 20px;
     background-color: #f5f5f5;
@@ -60,4 +65,5 @@ h1 {
     border-radius: 5px;
     height: 100%;
 }
+
 

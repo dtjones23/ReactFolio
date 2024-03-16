@@ -31,12 +31,10 @@ function Header() {
     <div>
       <nav className='title navbar'>
         <div className='navbar-brand'>
-          <a className='navbar-item large-font' rel="noreferrer">
-            DeAngelo Jones
-          </a>
+          <h1 className='navbar-item medium-font'>DeAngelo Jones</h1>
         </div>
         <Navigation
-          setPage={setPage} // pass setPage function to Navigation component
+          setPage={setPage} 
         />
       </nav>
       <div>{renderPage()}</div>
