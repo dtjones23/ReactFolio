@@ -7,6 +7,11 @@ function Navigation({ setPage }) {
     setShowMenu(!showMenu);
   };
 
+  useEffect(() => {
+    // sets the initial page to "About Me" when component mounts
+    setPage('About Me');
+  }, []);
+
   return (
     <div>
       <nav className="navbar" role="navigation" aria-label="main navigation">
