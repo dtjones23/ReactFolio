@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import About from './About';
 import Project from './Project';
 import Resume from './Resume';
-// import Contact from './Contact';
+import Skills from './Skills';
 import '../index.css'
 
 function Header() {
@@ -21,8 +21,8 @@ function Header() {
       return <About />;
     } else if (page === 'Projects') {
       return <Project />;
-    // } else if (page === 'Contact') {
-    //   return <Contact />;
+    } else if (page === 'Skills') {
+      return <Skills />;
     } else if (page === 'Resume') {
       return <Resume />;
     }
@@ -31,7 +31,7 @@ function Header() {
     <div>
       <nav className='title navbar'>
         <div className='navbar-brand'>
-          <h1 className='navbar-item medium-font'>DeAngelo Jones</h1>
+          <h1 className='navbar-item medium-font' style={{fontWeight:500}}>DeAngelo Jones</h1>
         </div>
         <Navigation
           setPage={setPage} 

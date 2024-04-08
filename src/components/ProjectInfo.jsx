@@ -8,24 +8,25 @@ export const projects = [
         live: ' https://spiritlabs.onrender.com/',
         repo: 'https://github.com/DimtheQuiet21/SpiritLab2'
     },
-    {
+        {
         id: 2,
+        name: 'Qwilos-ECommerce (front-end)',
+        description: 'A front-end react application for an e-commerce website that allows users to view and search products.',
+        image: 'https://github.com/dtjones23/Qwilos-ECommerce/assets/142169871/dd90b285-d259-45ac-b69c-bae2e7984625',
+        live: 'https://qwilos-ecommerce.onrender.com',
+        repo: 'https://https://github.com/dtjones23/Qwilos-ECommerce'
+    },
+    {
+        id: 3,
         name: 'NoSQL Social-Network-API',
         description: 'An API for a social network web application where users can share their thoughts, react to friends` thoughts, and create a friend list',
         image: 'https://github.com/dtjones23/ReactFolio/blob/main/src/images/nosql.social.png?raw=true',
         live: '',
         repo: 'https://github.com/dtjones23/NoSQL-SocialNetworkAPI'
     },
-    // {
-    //     id: 3,
-    //     name: 'Primary Games',
-    //     description: 'A digital game-link center that grants users the ability to browse across video games. Users can search for games by name, genre, or platform. Users can also create an account and save games to their profile.',
-    //     image: 'https://github.com/dtjones23/ReactFolio/blob/main/src/images/primarygames.png?raw=true',
-    //     live: 'https://primary-games-app3-6a2841bf5a98.herokuapp.com/',
-    //     repo: 'https://github.com/dtjones23/Primary-Games?tab=readme-ov-file'
-    // },
+
     {
-        id: 3,
+        id: 4,
         name: 'Code Quiz Game',
         description: 'A timed quiz on JavaScript fundamentals that stores high scores',
         image: 'https://github.com/dtjones23/ReactFolio/blob/main/src/images/code.quiz.png?raw=true',
@@ -33,7 +34,7 @@ export const projects = [
         repo: 'https://github.com/dtjones23/Code-Quiz-Repo?tab=readme-ov-file'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Spirit Labs 1.0',
         description: 'Spirit Labs is a cocktail search tool for finding the perfect drink for your taste buds',
         image: 'https://github.com/dtjones23/spirit-labs/blob/main/assets/images/sl-screenshot.png?raw=true',
@@ -41,7 +42,7 @@ export const projects = [
         repo: 'https://github.com/dtjones23/spirit-labs'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Work Day Scheduler',
         description: 'A simple calendar application that allows the user to save events for each hour of the day',
         image: 'https://github.com/dtjones23/ReactFolio/blob/main/src/images/dayplanner.png?raw=true',
@@ -49,7 +50,7 @@ export const projects = [
         repo: 'https://github.com/dtjones23/Day-Planning-Calender'
     },
     {
-        id: 6,
+        id: 7,
         name: 'Weather Dashboard',
         description: 'A weather dashboard that allows the user to search for a city and view the current weather and a 5-day forecast for that city. The user can also view a list of their recent searches and click on them to view the weather for that city again.',
         image: 'https://github.com/dtjones23/Weather-Dashboard/raw/main/assets/images/image.png',
@@ -57,7 +58,7 @@ export const projects = [
         repo: 'https://github.com/dtjones23/Weather-Dashboard'
     },
     {
-        id: 7,
+        id: 8,
         name: 'ORM-ECommerce',
         description: 'An e-commerce back end application that allows users to view, create, update, and delete categories, products, and tags. This application uses Express.js, Sequelize, and MySQL.',
         image: 'https://github.com/dtjones23/ORM-ECommerce/assets/142169871/c17166ab-3ebc-4d4d-b5b5-c4b2773f94f5',
