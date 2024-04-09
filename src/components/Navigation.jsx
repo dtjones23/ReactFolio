@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Navigation({ setPage }) {
   const [showMenu, setShowMenu] = useState(false);
