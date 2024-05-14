@@ -55,11 +55,11 @@ export default function Skills() {
                 </div>
             </li>
             <li>Express <div className="progress">
-                    <div className="progress-bar" style={{width: "65%"}}></div>
+                    <div className="progress-bar" style={{width: "70%"}}></div>
                 </div>
             </li>
             <li>MySQL <div className="progress">
-                    <div className="progress-bar" style={{width: "65%"}}></div>
+                    <div className="progress-bar" style={{width: "70%"}}></div>
                 </div>
             </li>
             <li>Mongo DB <div className="progress">

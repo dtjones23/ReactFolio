@@ -21,8 +21,8 @@ function Project() {
                     <p className='title is-4'>{project.name}</p>
                     <p className='subtitle is-6'>{project.description}</p>
                     <div className="button-container">
-                      <a href={project.live} className='button'>View Live</a>
-                      <a href={project.repo} className='button'>View Repo</a>
+                      {project.live !== '' ? (<a href={project.live} target='_' className='button'>View Live</a>): null}
+                      <a href={project.repo} target='_' className='button'>View Repo</a>
                     </div>
                   </div>
                 </div>

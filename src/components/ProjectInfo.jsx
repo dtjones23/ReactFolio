@@ -11,7 +11,7 @@ export const projects = [
         {
         id: 2,
         name: 'Qwilos-ECommerce (front-end)',
-        description: 'A front-end react application for an e-commerce website that allows users to view and search products.',
+        description: 'A front-end react application for an e-commerce website that allows users to view products.',
         image: 'https://github.com/dtjones23/Qwilos-ECommerce/assets/142169871/dd90b285-d259-45ac-b69c-bae2e7984625',
         live: 'https://qwilos-ecommerce.onrender.com',
         repo: 'https://https://github.com/dtjones23/Qwilos-ECommerce'
@@ -54,7 +54,7 @@ export const projects = [
         name: 'Weather Dashboard',
         description: 'A weather dashboard that allows the user to search for a city and view the current weather and a 5-day forecast for that city. The user can also view a list of their recent searches and click on them to view the weather for that city again.',
         image: 'https://github.com/dtjones23/Weather-Dashboard/raw/main/assets/images/image.png',
-        live: '',
+        live: 'https://dtjones23.github.io/Weather-Dashboard/',
         repo: 'https://github.com/dtjones23/Weather-Dashboard'
     },
     {
