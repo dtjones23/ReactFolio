@@ -14,7 +14,7 @@ export const projects = [
         description: 'A front-end react application for an e-commerce website that allows users to view products.',
         image: 'https://github.com/dtjones23/Qwilos-ECommerce/assets/142169871/dd90b285-d259-45ac-b69c-bae2e7984625',
         live: 'https://qwilos-ecommerce.onrender.com',
-        repo: 'https://https://github.com/dtjones23/Qwilos-ECommerce'
+        repo: 'https://github.com/dtjones23/Qwilos-ECommerce'
     },
     {
         id: 3,

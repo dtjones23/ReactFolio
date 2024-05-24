@@ -31,7 +31,7 @@ function Header() {
     <div>
       <nav className='title navbar'>
         <div className='navbar-brand'>
-          <h1 className='navbar-item medium-font' style={{fontWeight:500}}>DeAngelo Jones</h1>
+          <h1 className='navbar-item medium-font' style={{fontWeight:500}}>My Portfolio</h1>
         </div>
         <Navigation
           setPage={setPage} 
