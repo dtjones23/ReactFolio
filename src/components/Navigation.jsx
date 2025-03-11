@@ -33,7 +33,7 @@ function Navigation({ setPage }) {
             <div className="navbar-item" style={{fontSize:'14px'}} onClick={() => {setPage('About Me'); toggleMenu();}}>About</div>
             <div className="navbar-item" style={{fontSize:'14px'}} onClick={() => {setPage('Projects'); toggleMenu();}}>Projects</div>
             {/* <div className="navbar-item" onClick={() => {setPage('Contact'); toggleMenu();}}>Contact</div> */}
-            <div className="navbar-item" style={{fontSize:'14px'}} onClick={() => {setPage('Skills'); toggleMenu();}}>Skills</div>
+            {/* <div className="navbar-item" style={{fontSize:'14px'}} onClick={() => {setPage('Skills'); toggleMenu();}}>Skills</div> */}
             <div className="navbar-item" style={{fontSize:'14px'}} onClick={() => {setPage('Resume'); toggleMenu();}}>Resume</div>
           </div>
         </div>

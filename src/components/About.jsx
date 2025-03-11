@@ -29,7 +29,7 @@ export default function About() {
         <figure className="ml-5">
           <img
             className="smaller-image is-vcentered"
-            style={{ borderRadius: "50%", maxWidth: "100%", height: "auto" }}
+            style={{ borderRadius: "50%", maxWidth: "80%", height: "auto" }}
             src="https://github.com/dtjones23/first-day-demo/assets/142169871/086db32b-7ff0-4da1-83b9-cd602c7a76a5"
             alt="placeholder"
           />
@@ -42,24 +42,16 @@ export default function About() {
             "Good, better, best. Never let it rest until your good is better and
             your better is best." - Coach B <br />
             <br />
-            Discipline, perseverance, consistency, and the wise words from good
-            ol Coach B are driving factors for me in achieving a fulfilling
-            career in the tech industry. As someone with a passion for
-            continuous improvement, I consistently strive to exceed expectations
-            and acquire knowledge that will benefit me. I also have a genuine
-            love for learning, finding it to be an enjoyable pursuit in itself.{" "}
+            Discipline, perseverance, consistency, and the wise words from good ol’ Coach B are driving factors for me in achieving a fulfilling career. As someone with a passion for continuous improvement, I consistently strive to exceed expectations and acquire knowledge that will benefit me. I also have a genuine love for learning, finding it to be an enjoyable pursuit in itself.{" "}
             <br />
             <br />
-            Before diving into the world of coding, I was deeply fascinated by
-            psychology, which led me to pursue a Bachelor of Science degree in
-            Psychology from the University of Wisconsin-Lacrosse. However, my
-            recent completion of the{" "}
+            Before diving into the world of coding, I was deeply fascinated by psychology, which led me to pursue a Bachelor of Science degree in Psychology from the University of Wisconsin-La Crosse. However, my recent completion of the{" "}
             <a href="https://bootcamp.wisconsin.edu/coding/landing/?s=Google-Brand_RFull_&pkw=university%20of%20wisconsin%20coding%20bootcamp&pcrid=534133996997&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-WISCONSIN%7CSEM%7CCODING%7C-%7CONL%7C_RFull_%7CALL%7CBRD%7CEXACT%7CCore%7CBootcamp&utm_term=university%20of%20wisconsin%20coding%20bootcamp&s=google&k=university%20of%20wisconsin%20coding%20bootcamp&utm_adgroupid=105689713173&utm_locationphysicalms=9018951&utm_matchtype=e&utm_network=g&utm_device=c&utm_content=534133996997&utm_placement=&gad_source=1&gclid=CjwKCAjw9cCyBhBzEiwAJTUWNQcDf7SaUnJCcoXZT6aPdCpZX7opdO_nnN8zZyOj_E3pA-z0wGNclxoCrwgQAvD_BwE&gclsrc=aw.ds#hero" target="_" rel="noopener noreferrer">
               University of Wisconsin Virtual Coding Bootcamp</a> {" "}
-            marks a significant shift in my focus. Having overcome
-            various challenges during this program, I am confident and prepared
-            to apply the new skills and knowledge I've acquired in the
-            workplace. <br />
+              marks a significant shift in my focus. Having overcome various challenges during this program, I am confident and prepared to apply the new skills and knowledge I’ve acquired in the workplace.
+            <br />
+            <br />
+            At the same time, I have recently developed a strong interest in sales, drawn to its dynamic nature and the opportunity to connect with people while solving problems. The psychology of persuasion, relationship-building, and strategic communication are aspects that excite me, as they align with both my background in psychology and my drive for continuous growth. As I explore this new interest, I’m eager to leverage my analytical mindset, adaptability, and passion for learning to excel in both the tech and sales landscapes.
           </p>
         </div>
       </div>
